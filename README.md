@@ -8,7 +8,8 @@ hoge
 ### これはテストです
 ##push test
 
-``` gitの使い方
+### gitの使い方
+``` 
 $git clone (初回)
 $git pull (リモートをlocalに)
 $git add (target)
