@@ -11,11 +11,10 @@ hoge
 ##push test
 
 ### gitの使い方
-``` 
+```
 $git clone (初回)
 $git pull (リモートをlocalに)
 $git add (target)
-$git commit 
+$git commit
 $git push (localをリモートに)
 ```
-
