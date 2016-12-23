@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20216271E0D06BF00D6C765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20216261E0D06BF00D6C765 /* AppDelegate.swift */; };
+		F20216291E0D06BF00D6C765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20216281E0D06BF00D6C765 /* ViewController.swift */; };
+		F202162C1E0D06BF00D6C765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F202162A1E0D06BF00D6C765 /* Main.storyboard */; };
+		F202162E1E0D06BF00D6C765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F202162D1E0D06BF00D6C765 /* Assets.xcassets */; };
+		F20216311E0D06BF00D6C765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F202162F1E0D06BF00D6C765 /* LaunchScreen.storyboard */; };
+		F202163C1E0D06BF00D6C765 /* LogCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F202163B1E0D06BF00D6C765 /* LogCheckerTests.swift */; };
+		F20216471E0D06BF00D6C765 /* LogCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20216461E0D06BF00D6C765 /* LogCheckerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F20216381E0D06BF00D6C765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F202161B1E0D06BE00D6C765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20216221E0D06BE00D6C765;
+			remoteInfo = LogChecker;
+		};
+		F20216431E0D06BF00D6C765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F202161B1E0D06BE00D6C765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20216221E0D06BE00D6C765;
+			remoteInfo = LogChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F20216231E0D06BF00D6C765 /* LogChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20216261E0D06BF00D6C765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F20216281E0D06BF00D6C765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F202162B1E0D06BF00D6C765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F202162D1E0D06BF00D6C765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20216301E0D06BF00D6C765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F20216321E0D06BF00D6C765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20216371E0D06BF00D6C765 /* LogCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F202163B1E0D06BF00D6C765 /* LogCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCheckerTests.swift; sourceTree = "<group>"; };
+		F202163D1E0D06BF00D6C765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20216421E0D06BF00D6C765 /* LogCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20216461E0D06BF00D6C765 /* LogCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCheckerUITests.swift; sourceTree = "<group>"; };
+		F20216481E0D06BF00D6C765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20216201E0D06BE00D6C765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20216341E0D06BF00D6C765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F202163F1E0D06BF00D6C765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F202161A1E0D06BE00D6C765 = {
+			isa = PBXGroup;
+			children = (
+				F20216251E0D06BF00D6C765 /* LogChecker */,
+				F202163A1E0D06BF00D6C765 /* LogCheckerTests */,
+				F20216451E0D06BF00D6C765 /* LogCheckerUITests */,
+				F20216241E0D06BF00D6C765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20216241E0D06BF00D6C765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20216231E0D06BF00D6C765 /* LogChecker.app */,
+				F20216371E0D06BF00D6C765 /* LogCheckerTests.xctest */,
+				F20216421E0D06BF00D6C765 /* LogCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20216251E0D06BF00D6C765 /* LogChecker */ = {
+			isa = PBXGroup;
+			children = (
+				F20216261E0D06BF00D6C765 /* AppDelegate.swift */,
+				F20216281E0D06BF00D6C765 /* ViewController.swift */,
+				F202162A1E0D06BF00D6C765 /* Main.storyboard */,
+				F202162D1E0D06BF00D6C765 /* Assets.xcassets */,
+				F202162F1E0D06BF00D6C765 /* LaunchScreen.storyboard */,
+				F20216321E0D06BF00D6C765 /* Info.plist */,
+			);
+			path = LogChecker;
+			sourceTree = "<group>";
+		};
+		F202163A1E0D06BF00D6C765 /* LogCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F202163B1E0D06BF00D6C765 /* LogCheckerTests.swift */,
+				F202163D1E0D06BF00D6C765 /* Info.plist */,
+			);
+			path = LogCheckerTests;
+			sourceTree = "<group>";
+		};
+		F20216451E0D06BF00D6C765 /* LogCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F20216461E0D06BF00D6C765 /* LogCheckerUITests.swift */,
+				F20216481E0D06BF00D6C765 /* Info.plist */,
+			);
+			path = LogCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20216221E0D06BE00D6C765 /* LogChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F202164B1E0D06BF00D6C765 /* Build configuration list for PBXNativeTarget "LogChecker" */;
+			buildPhases = (
+				F202161F1E0D06BE00D6C765 /* Sources */,
+				F20216201E0D06BE00D6C765 /* Frameworks */,
+				F20216211E0D06BE00D6C765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogChecker;
+			productName = LogChecker;
+			productReference = F20216231E0D06BF00D6C765 /* LogChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F20216361E0D06BF00D6C765 /* LogCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F202164E1E0D06BF00D6C765 /* Build configuration list for PBXNativeTarget "LogCheckerTests" */;
+			buildPhases = (
+				F20216331E0D06BF00D6C765 /* Sources */,
+				F20216341E0D06BF00D6C765 /* Frameworks */,
+				F20216351E0D06BF00D6C765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20216391E0D06BF00D6C765 /* PBXTargetDependency */,
+			);
+			name = LogCheckerTests;
+			productName = LogCheckerTests;
+			productReference = F20216371E0D06BF00D6C765 /* LogCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F20216411E0D06BF00D6C765 /* LogCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20216511E0D06BF00D6C765 /* Build configuration list for PBXNativeTarget "LogCheckerUITests" */;
+			buildPhases = (
+				F202163E1E0D06BF00D6C765 /* Sources */,
+				F202163F1E0D06BF00D6C765 /* Frameworks */,
+				F20216401E0D06BF00D6C765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20216441E0D06BF00D6C765 /* PBXTargetDependency */,
+			);
+			name = LogCheckerUITests;
+			productName = LogCheckerUITests;
+			productReference = F20216421E0D06BF00D6C765 /* LogCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F202161B1E0D06BE00D6C765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					F20216221E0D06BE00D6C765 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U82XRRNVN2;
+					};
+					F20216361E0D06BF00D6C765 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U82XRRNVN2;
+						TestTargetID = F20216221E0D06BE00D6C765;
+					};
+					F20216411E0D06BF00D6C765 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U82XRRNVN2;
+						TestTargetID = F20216221E0D06BE00D6C765;
+					};
+				};
+			};
+			buildConfigurationList = F202161E1E0D06BE00D6C765 /* Build configuration list for PBXProject "LogChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F202161A1E0D06BE00D6C765;
+			productRefGroup = F20216241E0D06BF00D6C765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20216221E0D06BE00D6C765 /* LogChecker */,
+				F20216361E0D06BF00D6C765 /* LogCheckerTests */,
+				F20216411E0D06BF00D6C765 /* LogCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20216211E0D06BE00D6C765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20216311E0D06BF00D6C765 /* LaunchScreen.storyboard in Resources */,
+				F202162E1E0D06BF00D6C765 /* Assets.xcassets in Resources */,
+				F202162C1E0D06BF00D6C765 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20216351E0D06BF00D6C765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20216401E0D06BF00D6C765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F202161F1E0D06BE00D6C765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20216291E0D06BF00D6C765 /* ViewController.swift in Sources */,
+				F20216271E0D06BF00D6C765 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20216331E0D06BF00D6C765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F202163C1E0D06BF00D6C765 /* LogCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F202163E1E0D06BF00D6C765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20216471E0D06BF00D6C765 /* LogCheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F20216391E0D06BF00D6C765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20216221E0D06BE00D6C765 /* LogChecker */;
+			targetProxy = F20216381E0D06BF00D6C765 /* PBXContainerItemProxy */;
+		};
+		F20216441E0D06BF00D6C765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20216221E0D06BE00D6C765 /* LogChecker */;
+			targetProxy = F20216431E0D06BF00D6C765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F202162A1E0D06BF00D6C765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F202162B1E0D06BF00D6C765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F202162F1E0D06BF00D6C765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20216301E0D06BF00D6C765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20216491E0D06BF00D6C765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F202164A1E0D06BF00D6C765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F202164C1E0D06BF00D6C765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LogChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.LogChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F202164D1E0D06BF00D6C765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LogChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.LogChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F202164F1E0D06BF00D6C765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LogCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.LogCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogChecker.app/LogChecker";
+			};
+			name = Debug;
+		};
+		F20216501E0D06BF00D6C765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LogCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.LogCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogChecker.app/LogChecker";
+			};
+			name = Release;
+		};
+		F20216521E0D06BF00D6C765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LogCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.LogCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LogChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F20216531E0D06BF00D6C765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LogCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.LogCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LogChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F202161E1E0D06BE00D6C765 /* Build configuration list for PBXProject "LogChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20216491E0D06BF00D6C765 /* Debug */,
+				F202164A1E0D06BF00D6C765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F202164B1E0D06BF00D6C765 /* Build configuration list for PBXNativeTarget "LogChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F202164C1E0D06BF00D6C765 /* Debug */,
+				F202164D1E0D06BF00D6C765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F202164E1E0D06BF00D6C765 /* Build configuration list for PBXNativeTarget "LogCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F202164F1E0D06BF00D6C765 /* Debug */,
+				F20216501E0D06BF00D6C765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F20216511E0D06BF00D6C765 /* Build configuration list for PBXNativeTarget "LogCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20216521E0D06BF00D6C765 /* Debug */,
+				F20216531E0D06BF00D6C765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F202161B1E0D06BE00D6C765 /* Project object */;
+}
