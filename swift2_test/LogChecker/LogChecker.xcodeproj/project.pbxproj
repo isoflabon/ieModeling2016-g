@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					F20216221E0D06BE00D6C765 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = U82XRRNVN2;
 					};
 					F20216361E0D06BF00D6C765 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -400,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LogChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.LogChecker;
@@ -411,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LogChecker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.LogChecker;
@@ -485,6 +486,7 @@
 				F202164D1E0D06BF00D6C765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F202164E1E0D06BF00D6C765 /* Build configuration list for PBXNativeTarget "LogCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +495,7 @@
 				F20216501E0D06BF00D6C765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F20216511E0D06BF00D6C765 /* Build configuration list for PBXNativeTarget "LogCheckerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +504,7 @@
 				F20216531E0D06BF00D6C765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
