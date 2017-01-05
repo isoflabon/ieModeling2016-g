@@ -3,7 +3,7 @@
 
 /************************* WiFi Access Point *********************************/
 
-#define WLAN_SSID       "Syoitiro Yamazato の iPhone"
+#define WLAN_SSID       "???????????"
 #define WLAN_PASS       "???????????"
 
 
