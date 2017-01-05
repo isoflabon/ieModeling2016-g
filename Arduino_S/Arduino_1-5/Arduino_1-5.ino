@@ -4,7 +4,7 @@
 /************************* WiFi Access Point *********************************/
 
 #define WLAN_SSID       "Syoitiro Yamazato の iPhone"
-#define WLAN_PASS       "pujwxdc4np9dr"
+#define WLAN_PASS       "???????????"
 
 
 /************************* Your Milkcocoa Setup *********************************/
