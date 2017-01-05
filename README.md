@@ -1,14 +1,13 @@
-hoge
-### これはテストでsuよ.
+# Team G-SHOCK Arduinoを用いた生活管理アプリ(仮)
 
-単位取るぞ！
-贅沢微糖
+### ディレクトリ構成
 
-ヤッホー
-
-# hoge
-### これはテストです
-##push test
+--Animal 動物占いのサンプルソースコード
+-- Arduino_S 今回使うArduinoのソースコード群
+-- UML 作成したUML図
+-- commndline-apprecation コマンドラインApplication(サンプル)
+-- graphics アプリで使用する,参考にする画像
+-- swift2__test 実際に作っていくコードが入っている
 
 ### gitの使い方
 ```
