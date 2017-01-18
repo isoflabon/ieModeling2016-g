@@ -22,6 +22,12 @@
         page.querySelector('#push-button').onclick = function() {
           document.querySelector('#navigator').pushPage('page2.html');
         };
+        //ボタンが押された場合の処理
+        page.querySelector('#push-arduino').onclick = function(){
+        //milkcocoaのremoteデータストアに{"sw":0}のデータを送信
+            var ds = milkcocoa.dataStore('remote');
+            ds.send({"sw":0}); 
+        }
 
       } else if (page.matches('#second-page')) {
 
@@ -44,6 +50,7 @@
 
       <div class="content" style="text-align: center">
         <p>This is the first page.</p>
+        <ons-button id="push-arduino"> LED </ons-button>
         <ons-button id="push-button">Push page</ons-button>
       </div>
     </ons-page>
