@@ -3,13 +3,13 @@
 
 /************************* WiFi Access Point *********************************/
 
-#define WLAN_SSID       "Syoitiro Yamazato の iPhone"
-#define WLAN_PASS       "pujwxdc4np9dr"
+#define WLAN_SSID       "xxxxxxxxxxxx"//個人情報
+#define WLAN_PASS       "xxxxxxxxxxxx"//個人情報
 
 
 /************************* Your Milkcocoa Setup *********************************/
 
-#define MILKCOCOA_APP_ID      "woodixitlj8v"
+#define MILKCOCOA_APP_ID      "xxxxxxx"
 #define MILKCOCOA_DATASTORE   "remote"
 
 /************* Milkcocoa Setup (you don't need to change this!) ******************/
