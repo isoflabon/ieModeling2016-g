@@ -7,11 +7,11 @@
     <div style="text-align: center">
 
         <h1>Monitor</h1>
-        <ons-button class="btn" ng-click="myNavigator.pushPage('tvshow.html')">TV</ons-button>
+        <ons-button class="btn" ng-click="myNavigator.replacePage('tv.html')">TV</ons-button>
         <br><br>
-        <ons-button class="btn" ng-click="myNavigator.pushPage(tv.html)">エアコン</ons-button>
+        <ons-button class="btn" ng-click="myNavigator.replacePage('aircon.html')">エアコン</ons-button>
         <br><br>
-        <ons-button class="btn" ng-click="myNavigator.pushPage(tv.html)">Posts</ons-button>
+        <ons-button class="btn" ng-click="myNavigator.replacePage('post.html')">Posts</ons-button>
         <br><br>
         <ons-button class="btn"
             ng-click="myNavigator.popPage()">
@@ -20,4 +20,3 @@
 
     </div>
 </ons-page>
-
