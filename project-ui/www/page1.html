@@ -1,0 +1,33 @@
+<ons-page>
+    <br>
+    <div style="text-align: center"><img src="picture/Arduino_Logo.png" height="100" width="250"></div>
+    <br>
+    <ons-toolbar>
+        <div class="center">First Page</div>
+    </ons-toolbar>
+
+    <div class="content" style="text-align: center">
+    <ons-button class ="btn" id="push-arduino"> LED </ons-button> 
+    </div>
+    
+    <div style="text-align: center">
+        <br>
+        <ons-button class="btn"
+            ng-click="myNavigator.pushPage('control.html')">
+            <td>Control</td>
+        </ons-button>
+    </div>
+    
+    <div style="text-align: center">
+        <ons-button class="btn"
+            ng-click="myNavigator.pushPage('log.html')">
+            Log
+        </ons-button>    
+    </div>
+    
+     <div style="text-align: center">
+        <ons-button class="btn"
+            ng-click="myNavigator.pushPage('notice.html')">
+            Notice
+        </ons-button>    
+    </div>
