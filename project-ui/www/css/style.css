@@ -1,8 +1,14 @@
+/**/
 .btn{width: 75%;
      height: 70px;
      font-size: 150%;
      margin: 10px 5px 10px 5px;
-     }
+	}
 h1{
     font-size: 200%;
+}
+.tvbtn{
+    width:  37%;
+    height: 70px;
+    font-size: 100%;
 }
