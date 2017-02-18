@@ -7,11 +7,11 @@
 h1{
     font-size: 300%;
 }
-.tvbtn{
+/*.tvbtn{
     width:  37%;
     height: 70px;
     font-size: 100%;
-}
+}*/
 
 .page__background {
   background-color: #fffaf0;
@@ -33,11 +33,26 @@ h1{
     border-radius:10px
     text-shadow:-1px -1px #555
 }
+
+.bkbtn {
+    width:10%;
+    height: 20px;
+    font-size:100%;
+    font-weight:bold;
+    text-decoration:none;
+    padding:10px 0 10px;
+    margin: 10px auto;        	/*ぼたんの位置設定*/
+    color:#333;
+    border:1px solid #ff66ff;
+    background-color: rgba(251,218,222,0.8);
+    border-radius:10px
+    text-shadow:-1px -1px #555
+}
 /*.button:hover {
     background-color: #e156ad;
 	box-shadow: 0 3px 0 #e15611;
-}*/
+}
 .button:active {
 	top: 3px;
 	box-shadow: none;
-}
+}*/

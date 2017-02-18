@@ -29,45 +29,25 @@
     
     </script>
 </head>
+<body>
+    <ons-page>
     <ons-toolbar>
-        <div class="left"><ons-back-button>Back</ons-back-button></div>
-        <div class="center">Control-TV</div>
+            <div class="center">Control-TV</div>
     </ons-toolbar>
 
     <div style="text-align: center">
-
         <h1>TV Control</h1>
         <a href="#" class="button"onClick="OnLinkClick();">電源を入れる㊗️</a>
         <br>
+        <a href="#" class="button">音量:+</a>
+        <a href="#" class="button">音量:-</a>
         <br>
-        <br>
-        <ons-button
-            class="tvbtn"
-            ng-click="myNavigator.popPage()">
-            音量:+
-        </ons-button>
-        <ons-button
-            class="tvbtn"
-            ng-click="myNavigator.popPage()">
-            音量:-
-        </ons-button>
-        <br><br><br>
-                <ons-button
-            class="tvbtn"
-            ng-click="myNavigator.popPage()">
-            選局:↑
-        </ons-button>
-        <ons-button
-            class="tvbtn"
-            ng-click="myNavigator.popPage()">
-            選局:↓
-        </ons-button>
-        <br><br><br>
-        <ons-button
-            class="btn"
-            ng-click="myNavigator.popPage()">
-            Back
-        </ons-button>
+        <a href="#" class="button">選局:↑</a>        
+        <a href="#" class="button">選局:↓</a>
+        <br><br>
+        <a href="control.html" class="button">Back</a>
+        <br><br>
     </div>
+    </ons-page>
 </body>
 </html>
