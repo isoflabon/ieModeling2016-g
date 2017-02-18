@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesshet" href="components/monaca-onsenui/js/angular/angular-csp.css">
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.mlkcca.com/v0.6.0/milkcocoa.js"></script>
+    <script>
+    // Page init event
+
+    
+    function OnLinkClick() {
+            var milkcocoa = new MilkCocoa('woodixitlj8v.mlkcca.com');
+
+            var ds = milkcocoa.dataStore('remote');
+            ds.push({"sw":1}); //リレー1　ON
+            return false;
+        }
+    
+        ons.bootstrap();
+    
+    </script>
+</head>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back</ons-back-button></div>
+        <div class="center">Control-TV</div>
+    </ons-toolbar>
+
+    <div style="text-align: center">
+
+        <h1>TV Control</h1>
+        <a href="#" class="button"onClick="OnLinkClick();">電源を入れる㊗️</a>
+        <br>
+        <br>
+        <br>
+        <ons-button
+            class="tvbtn"
+            ng-click="myNavigator.popPage()">
+            音量:+
+        </ons-button>
+        <ons-button
+            class="tvbtn"
+            ng-click="myNavigator.popPage()">
+            音量:-
+        </ons-button>
+        <br><br><br>
+                <ons-button
+            class="tvbtn"
+            ng-click="myNavigator.popPage()">
+            選局:↑
+        </ons-button>
+        <ons-button
+            class="tvbtn"
+            ng-click="myNavigator.popPage()">
+            選局:↓
+        </ons-button>
+        <br><br><br>
+        <ons-button
+            class="btn"
+            ng-click="myNavigator.popPage()">
+            Back
+        </ons-button>
+    </div>
+</body>
+</html>

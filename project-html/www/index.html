@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesshet" href="components/monaca-onsenui/js/angular/angular-csp.css">
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.mlkcca.com/v0.6.0/milkcocoa.js"></script>
+  <script>
+    // Page init event
+
+    
+    function OnLinkClick() {
+            var milkcocoa = new MilkCocoa('woodixitlj8v.mlkcca.com');
+
+            var ds = milkcocoa.dataStore('remote');
+            ds.push({"sw":1}); //リレー1　ON
+            return false;
+        }
+    
+        ons.bootstrap();
+    
+    </script>
+</head>
+<body>
+    <ons-page>
+    <br>
+    <div style="text-align: center"><img src="picture/Arduino_Logo.png" height="150" width="80%"></div>
+    <ons-toolbar>
+        <div class="center">Title Page</div>
+    </ons-toolbar>
+
+    <br><br>
+    <div class="content" style="text-align: center">
+        <a href="#" class="button"onClick="OnLinkClick();">LED</a>
+    </div>
+    
+    <br><br>
+    <div style="text-align: center">
+        <a href = "control.html" class="button">Control</a>
+    </div>
+    <br><br>
+    <div style="text-align: center">
+        <a href = "log.html" class="button">Log</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/**/
+.btn{width: 75%;
+     height: 70px;
+     font-size: 150%;
+     margin: 10px 5px 10px 5px;
+}
+h1{
+    font-size: 300%;
+}
+.tvbtn{
+    width:  37%;
+    height: 70px;
+    font-size: 100%;
+}
+
+.page__background {
+  background-color: #fffaf0;
+}
+
+.button {
+    width:75%;
+    height: 70px;
+    font-size:150%;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    margin: 10px auto;    		/*ぼたんの位置設定*/
+    color:#333;
+    border:1px solid #ff66ff;
+    background-color: rgba(251,218,222,0.8);
+    border-radius:10px
+    text-shadow:-1px -1px #555
+}
+/*.button:hover {
+    background-color: #e156ad;
+	box-shadow: 0 3px 0 #e15611;
+}*/
+.button:active {
+	top: 3px;
+	box-shadow: none;
+}
