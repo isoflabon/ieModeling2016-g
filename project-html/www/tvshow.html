@@ -1,53 +1,88 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-  <script src="components/loader.js"></script>
-  <script src="lib/onsenui/js/onsenui.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <script src="lib/onsenui/js/onsenui.min.js"></script>
 
-  <link rel="stylesshet" href="components/monaca-onsenui/js/angular/angular-csp.css">
-  <link rel="stylesheet" href="components/loader.css">
-  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
-  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://cdn.mlkcca.com/v0.6.0/milkcocoa.js"></script>
+    <link rel="stylesshet" href="components/monaca-onsenui/js/angular/angular-csp.css">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.mlkcca.com/v0.6.0/milkcocoa.js"></script>
     <script>
-    // Page init event
+        // Page init event
 
-    
-    function startTv() {
-            var milkcocoa = new MilkCocoa('woodixitlj8v.mlkcca.com');
+        var milkcocoa = new MilkCocoa('woodixitlj8v.mlkcca.com');
+        var ds = milkcocoa.dataStore('tvpush');
 
-            var ds = milkcocoa.dataStore('tvpush');
-            ds.push({"mem":F148688B});  //パナソニックの命令コード
+        //TV用データストアtvpushに対してactionを実行
+
+        function startTv() {
+            ds.push({
+                "mem": "F148688B"
+            }); //パナソニックの命令コード
             return false;
         }
-    
+
+        function volumePlus() {
+            ds.push({
+                "mem": "0x55,0x5A,0xF1,0x48,0x28,0x8F"
+            }); //パナソニックの命令コード
+            return false;
+        }
+
+        function volumeMinus() {
+            ds.push({
+                "mem": "0x40,0x04,0x01,0x00,0x84,0x85"
+            });
+            return false;
+        }
+
+        function changeChanel(flag) {
+
+            if (flag) {
+                ds.push({
+                    "mem": "0x40,0x04,0x01,0x00,0x2C,0x2D"
+                });
+                //チャンネル上昇
+
+            } else {
+                ds.push({
+                    "mem": "0x40,0x04,0x01,0x00,0xAC,0xAD"
+                });
+            }
+            return false;
+        }
+
         ons.bootstrap();
-    
     </script>
 </head>
+
 <body>
     <ons-page>
-    <ons-toolbar>
+        <ons-toolbar>
             <div class="center">Control-TV</div>
-    </ons-toolbar>
+        </ons-toolbar>
 
-    <div style="text-align: center">
-        <h1>TV Control</h1>
-        <a href="#" class="button"onClick="startTv();">電源を入れる㊗️</a>
-        <br>
-        <a href="#" class="button">音量:+</a>
-        <a href="#" class="button">音量:-</a>
-        <br>
-        <a href="#" class="button">選局:↑</a>        
-        <a href="#" class="button">選局:↓</a>
-        <br><br>
-        <a href="control.html" class="button">Back</a>
-        <br><br>
-    </div>
+        <div style="text-align: center">
+            <h1>TV Control</h1>
+            <a href="#" class="button" onClick="startTv();">電源を入れる㊗️</a>
+            <br>
+            <a href="#" class="button" onClick="volumePlus();">音量:+</a>
+            <a href="#" class="button" onclick="volumeMinus()">音量:-</a>
+            <br>
+            <a href="#" class="button" onclick="changeChanel(true)">選局:↑</a>
+            <a href="#" class="button" onclick="changeChanel(false)">選局:↓</a>
+            <br><br>
+            <a href="control.html" class="button">Back</a>
+            <br><br>
+        </div>
     </ons-page>
 </body>
+
 </html>
