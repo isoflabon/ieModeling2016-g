@@ -17,11 +17,11 @@
     // Page init event
 
     
-    function OnLinkClick() {
+    function startTv() {
             var milkcocoa = new MilkCocoa('woodixitlj8v.mlkcca.com');
 
-            var ds = milkcocoa.dataStore('remote');
-            ds.push({"sw":1}); //リレー1　ON
+            var ds = milkcocoa.dataStore('tvpush');
+            ds.push({"mem":F148688B});  //パナソニックの命令コード
             return false;
         }
     
@@ -37,7 +37,7 @@
 
     <div style="text-align: center">
         <h1>TV Control</h1>
-        <a href="#" class="button"onClick="OnLinkClick();">電源を入れる㊗️</a>
+        <a href="#" class="button"onClick="startTv();">電源を入れる㊗️</a>
         <br>
         <a href="#" class="button">音量:+</a>
         <a href="#" class="button">音量:-</a>
