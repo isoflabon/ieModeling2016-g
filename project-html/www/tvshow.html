@@ -31,14 +31,14 @@
 
         function volumePlus() {
             ds.push({
-                "mem": "0x55,0x5A,0xF1,0x48,0x28,0x8F"
+                "mem": "F148288F"
             }); //パナソニックの命令コード
             return false;
         }
 
         function volumeMinus() {
             ds.push({
-                "mem": "0x40,0x04,0x01,0x00,0x84,0x85"
+                "mem": "F148A887"
             });
             return false;
         }
@@ -47,13 +47,13 @@
 
             if (flag) {
                 ds.push({
-                    "mem": "0x40,0x04,0x01,0x00,0x2C,0x2D"
+                    "mem": "F1488885"
                 });
                 //チャンネル上昇
 
             } else {
                 ds.push({
-                    "mem": "0x40,0x04,0x01,0x00,0xAC,0xAD"
+                    "mem": "F1484889"
                 });
             }
             return false;
