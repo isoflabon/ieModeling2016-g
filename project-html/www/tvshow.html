@@ -24,21 +24,21 @@
 
         function startTv() {
             ds.push({
-                "mem": "F148688B"
+                "mem": "1"
             }); //パナソニックの命令コード
             return false;
         }
 
         function volumePlus() {
             ds.push({
-                "mem": "F148288F"
+                "mem": "2"
             }); //パナソニックの命令コード
             return false;
         }
 
         function volumeMinus() {
             ds.push({
-                "mem": "F148A887"
+                "mem": "3"
             });
             return false;
         }
@@ -47,13 +47,13 @@
 
             if (flag) {
                 ds.push({
-                    "mem": "F1488885"
+                    "mem": "4"
                 });
                 //チャンネル上昇
 
             } else {
                 ds.push({
-                    "mem": "F1484889"
+                    "mem": "5"
                 });
             }
             return false;
