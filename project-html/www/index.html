@@ -15,24 +15,33 @@
   <script src="https://cdn.mlkcca.com/v0.6.0/milkcocoa.js"></script>
   <script>
     // Page init event
-
+    var count=0;    //LEDのON,OFFのcount
     
     function OnLinkClick() {
             var milkcocoa = new MilkCocoa('woodixitlj8v.mlkcca.com');
-
+            
             var ds = milkcocoa.dataStore('remote');
-            ds.push({"sw":1}); //リレー1　ON
-            return false;
+            
+            if(count % 2==1){
+                ds.push({"sw":0}); //リレー0　OFF
+                count++;
+                return false;
+            }else{
+                ds.push({"sw":1}); //リレー1　ON
+                count ++;
+                return false;
+            }
         }
-    
-        ons.bootstrap();
-    
+        
+
+    ons.bootstrap();
+     
     </script>
 </head>
 <body>
     <ons-page>
     <br>
-    <div style="text-align: center"><img src="picture/Arduino_Logo.png" height="150" width="80%"></div>
+    <div style="text-align: center"><img src="picture/Arduino_Logo.png" height="150%" width="80%"></div>
     <ons-toolbar>
         <div class="center">Title Page</div>
     </ons-toolbar>
